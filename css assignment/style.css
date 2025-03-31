@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: aliceblue;
+}
+.contain{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: blue;
+    color: white;
+    padding-top: 15px;
+    justify-content: space-around;
+}
+.contain h2{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav a{
+    align-items: end;
+    text-decoration: none;
+    gap: 40px;
+    font-size: 25px;
+    color: white;
+    
+}
+#container{
+    background-color: rgb(53, 130, 230);
+    height: 500px;
+}
+
+#container .flex{
+    display: flex;
+}
+
+#container .flex1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+
+}
+
+.flex1 h1 {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.flex1 p{
+    font-size: 20px;
+    color: white;
+}
+.flex img{
+    width: 450px;
+    height: 450px;
+    padding: 70px;
+    align-items: center;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 200px;
+    padding: 30px;
+    background-color: rgb(66, 66, 231);
+}
+
+.class1{
+    
+    align-items: center;
+    width: 350px;
+    height: 150px;
+    background-color: blue;
+    color: white;
+    align-content: center;
+    justify-items: center;
+    border-radius: 10%;
+}
+.container2 .i .h2{
+    display: inline;
+    flex-direction:row;
+}
+.class1 h2{
+    font-family: sans-serif;
+}
+.class1 p{
+    font-size: 20px;
+}
+.class2{
+    align-items: center;
+    width: 350px;
+    height: 150px;
+    background-color: blue;
+    color: white;
+    align-content: center;
+    justify-items: center;
+    border-radius: 10%;
+}
+.class2 h2{
+    font-family: sans-serif;
+}
+.class2 p{
+    font-size: 20px;
+}
+.class3{
+    align-items: center;
+    width: 350px;
+    height: 150px;
+    background-color: blue;
+    color: white;
+    align-content: center;
+    justify-items: center;
+    border-radius: 10%;
+}
+.class3 h2{
+    font-family: sans-serif;
+}
+.class3 p{
+        font-size: 20px;
+    }
